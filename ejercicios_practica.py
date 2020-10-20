@@ -11,7 +11,6 @@ Programa creado para poner a prueba los conocimientos
 adquiridos durante la clase
 '''
 
-__author__ = "Inove Coding School"
 __author__ = "Julian"
 __email__ = "alumnos@inove.com.ar"
 __version__ = "1.4"
@@ -26,12 +25,14 @@ def ej1():
     # Almacenar el valor de la suma en una variable
     # ej:
     # operacion = .....
-
     # Imprimir en pantalla el resultado de la suma
     # print(....)
+    suma = numero_1 + numero_2
+    print(suma)
 
     # Repita el procedimiento para realizar la resta
-
+    resta = numero_1 - numero_2
+    print(resta)
 
 def ej2():
     # Ejercicios de práctica numérica
@@ -41,26 +42,32 @@ def ej2():
     # consola con la función "input" como se ve a continuación
     print('Ingrese el primer número decimal a operar:')
     numero_1 = int(input())
+    print (numero_1)
 
     print('Ingrese el segundo número decimal a operar:')
     numero_2 = int(input())
-
+    print(numero_2)
+    
     # Alumno: Imprima en pantalla los dos números decimales solicitados
     # print(....)
-
+    
     # Alumno: Calcule la suma, resta, división y multiplicación de los números ingresados
     # numero_1, numero_2
     # Imprima en pantalla todos los resultados con el siguiente formato de ejemplo:
     # El resultado de sumar 4 y 2 es 6
 
     # Suma
-
+    suma = numero_1 + numero_2
+    print('El resultado de sumar', numero_1, 'y', numero_2, 'es', suma)
     # Resta
-
+    resta = numero_1 - numero_2
+    print('El resultado de restar', numero_1, 'y', numero_2, 'es', resta)
     # División
-
+    division = numero_1 / numero_2
+    print('El resultado de dividir', numero_1, 'y', numero_2, 'es', division)
     # Multiplicación
-
+    multiplicacion = numero_1 * numero_2
+    print('El resultado de multiplicar', numero_1, 'y', numero_2, 'es', multiplicacion)
 
 def ej3():
     # Ejemplos variables de texto
@@ -77,9 +84,11 @@ def ej3():
 
     # Almacenar su nombre completo en una variable
     # nombre_completo = .....
-
+    nombre_completo = nombre + apellido
+    print(nombre_completo)
+    
     # Imprimir la cantidad de letras que posee su nombre completo
-
+    len(nombre_completo)
 
 def ej4():
     # Ejemplos variables de texto
