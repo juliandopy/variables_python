@@ -86,7 +86,7 @@ def ej3():
     # nombre_completo = .....
     nombre_completo = nombre + apellido
     print(nombre_completo)
-    
+
     # Imprimir la cantidad de letras que posee su nombre completo
     len(nombre_completo)
 
@@ -107,7 +107,8 @@ def ej4():
     # De cada palabra debe tomar la primera letra y armar el acrónimo
     # Ejemplo: Alumbrado, barrido y limpieza --> ABL
     # Imprimir el resultado en pantalla
-
+    acronimo = palabra_1[0] + palabra_2[0] + palabra_3[0]
+    print(acronimo)
 
 def ej5():
     # Ejemplos variables de texto
@@ -124,11 +125,13 @@ def ej5():
     # Formar una nueva palabra con los recortes solicitados
     # Imprima en pantalla los resultados
 
+    combianar = palabra_1[0:2] + palabra_2[-1:-3]
+    print(combianar)
 
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
     ej1()
-    # ej2()
-    # ej3()
-    # ej4()
-    # ej5()
+    ej2()
+    ej3()
+    ej4()
+    ej5()
