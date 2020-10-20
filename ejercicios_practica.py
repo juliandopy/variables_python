@@ -12,6 +12,7 @@ adquiridos durante la clase
 '''
 
 __author__ = "Inove Coding School"
+__author__ = "Julian"
 __email__ = "alumnos@inove.com.ar"
 __version__ = "1.4"
 
